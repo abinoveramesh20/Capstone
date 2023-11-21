@@ -8,7 +8,7 @@ pipeline {
                url: 'https://github.com/abinoveramesh20/Capstone.git'
             }
         }
-
+#buildstage
         stage('Build and Push Docker Image') {
             steps {
                 // Granting executable permissions to the build script
