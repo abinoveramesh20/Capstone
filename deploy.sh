@@ -1,4 +1,4 @@
-#!/bin/bah
+#!/bin/bash
 
 # Git branch
 if [[ $GIT_BRANCH == "origin/dev" ]]; then
