@@ -21,7 +21,7 @@ elif [[ $GIT_BRANCH == "origin/main" ]]; then
 
     # Logging into Docker Hub
     docker login -u abinoveramesh -p dckr_pat_q2pu9uYUcE1x6stfIHjlRL8Vsj0kr_pat_q2pu9uYUcE1x6stfIHjlRL8Vsj0
-1
+
    
     # Tagging the image
     docker tag capstoneimg  abinoveramesh/prod 
