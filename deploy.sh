@@ -24,7 +24,7 @@ elif [[ $GIT_BRANCH == "origin/main" ]]; then
 
    
     # Tagging the image
-    docker tag capstoneimg  abinoveramesh/prod 
+    docker tag capstoneimg abinoveramesh/prod 
 
     # Push the image to the Prod Docker Hub repository
     docker push abinoveramesh/prod
